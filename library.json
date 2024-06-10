@@ -3,5 +3,12 @@
     "build": {
         "libArchive": false,
         "flags": "-DUSE_TINYUSB"
-    }
+    },
+    "dependencies": [
+        {
+            "owner": "adafruit",
+            "name": "Adafruit_ZeroDMA",
+            "version": "1.1.3"
+        }
+    ]
 }
